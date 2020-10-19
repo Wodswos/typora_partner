@@ -1,0 +1,40 @@
+{
+  "sourcePath" : "C:/Users/Five/Desktop/source",
+
+  "text_replace_pair": {
+    "some string pairs u want to replace between local and remote": "some string pairs u want to replace between local and remote",
+  },
+
+  "yaml_info": {
+    "pagetitle": "Your Page Title"
+    "any_info_your_want": "any_info_your_want"
+  },
+
+  "mathjax_url": "<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default\"></script>",
+
+  "cloudServer": {
+    "host": "xx.xx.xx.xx your remote host",
+    "username": "",
+    "password": "",
+    "htmlPath": "/usr/share/nginx/html"
+  },
+
+  "pandocParameter":[
+    "--standalone",
+    "--mathjax",
+    "--css",
+    "http://47.103.199.15/css/github.css"
+  ],
+
+  "imgPath": "your local img path",
+
+  "oss": {
+    "accessKey": {
+      "ID": "your ID",
+      "Secret": "your Secret"
+    },
+    "endpoint": "e.g. oss-cn-shanghai.aliyuncs.com",
+    "bucket": "your bucket",
+    "path": "storage path"
+  }
+}
